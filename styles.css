@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.containePoke{
+  background-color: yellowgreen;
+  margin: 0 auto;
+  width: 90%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.pokeImage {
+  margin: 0 2em;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.pokeImage img{
+  width: 475px;
+  height: 475px;
+}
+
+.containeDatos{
+  width: 100%;
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.containeDatos h1{
+  font-size: 9em;
+  text-align: center;
+
+}
+.containeDatos header{
+  padding: 6%;
+  height: 300px;
+}
+
+.pokeDatos h2{
+  font-size: 4rem;
+  margin: 22px;
+  margin-bottom: 12px;
+}
+
+.pokeDatos p{
+  font-size: 2.5rem;
+  margin-left: 25px;
+}
+
+.pokeBoton{
+  background-color: rgba(240, 162, 11, 0.42);
+  border-radius: 40px 20px;
+  margin: 0 auto;
+  width: 30%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+
+}
+
+.pokeBoton button{
+  text-align: center;
+
+
+}
